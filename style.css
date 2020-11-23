@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+nav {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    background: white;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+nav ul li:last-child {
+    padding-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+nav ul li a:hover {
+    background-color:rgba(220, 20, 60, 0.877);
+    color: white;
+    transition: all 200ms ease-in-out;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    height: 50%;
+}
+
+.logo-container {
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    margin-right: auto;
+    display: inline-block;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    height: 30px;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    width: 40%;
+    text-align: center;
+}
+
+.texto h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.texto h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 50px;
+}
+.home-description{
+    line-height: 40px !important;
+    
+}
+
+.image {
+    width: 50%
+}
+.image-precio {
+    width: 40%;
+    margin-left: 160px;
+}
+
+.about-us-main {
+    height: 90vh;
+    display: flex;
+}
+.about-us {
+    width: 60%;
+    text-align: center;
+}
+
+.about-us h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.description {
+    width: 100%;
+    line-height: 40px !important;
+}
